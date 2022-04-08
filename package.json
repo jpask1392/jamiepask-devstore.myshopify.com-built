@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "run-p -sr shopify:serve webpack:watch",
+    "deploy:live": "run-s webpack:build && git push && git subtree push --prefix shopify https://github.com/jpask1392/jamiepask-devstore.myshopify.com-built.git main",
     "deploy": "run-s webpack:build && cd shopify && shopify theme push && cd .. && git subtree push --prefix shopify https://github.com/jpask1392/jamiepask-devstore.myshopify.com-built.git main",
     "deploy:new": "run-s webpack:build && cd shopify && shopify theme push --unpublished",
     "webpack:watch": "cross-env NODE_ENV=development BROWSERSLIST_ENV=development BROWSERSLIST_CONFIG=.config/.browserslistrc webpack --config .config/webpack/webpack.dev.js --watch --progress",

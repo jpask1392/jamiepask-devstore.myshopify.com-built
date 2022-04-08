@@ -1,0 +1,132 @@
+.collection-pads-reviews {
+	font-family: Gilroy, sans-serif;
+	text-align: center;
+	position: relative
+}
+
+.collection-pads-reviews .background-image {
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	object-fit: cover
+}
+
+.collection-pads-reviews .module-inner {
+	margin: 0 auto
+}
+
+.collection-pads-reviews .btn {
+	margin: 2rem auto 3rem auto;
+	background-color: #313e48!important;
+	color: #fff;
+	font-weight: 700;
+	padding: 1rem 3rem;
+	border: 3px solid transparent!important
+}
+
+.collection-pads-reviews .btn:hover {
+	background-color: transparent!important;
+	color: #313e48;
+	border: 3px solid #313e48!important
+}
+
+.collection-pads-reviews .yotpo-display-wrapper {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .shoppers-say-title {
+	width: 100%;
+	padding: 3rem 0;
+	margin-top: 0;
+	color: #fff;
+	height: auto;
+	font-size: 2rem;
+	font-weight: 700
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box {
+	flex: 1;
+	pointer-events: none;
+	border-top: none
+}
+
+@media (max-width:720px) {
+	.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box {
+		flex: auto
+	}
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .yotpo-hidden {
+	display: block!important
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .icon-holder,
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .more-reviews,
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-collapsed {
+	display: none!important
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-container,
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-expanded,
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .single-best-sentence {
+	height: 100%
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .single-best-sentence {
+	border-radius: 10px
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .full-review-background {
+	background-color: #fff
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content {
+	padding: 1rem
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .review-stars {
+	margin-left: 0
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .review-stars .rating-star {
+	font-size: 1.5rem;
+	color: #efab7b
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content {
+	margin-top: 2rem
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content * {
+	text-align: left
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content .review-title {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	color: #333f48
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content .full-review {
+	font-size: 1.125rem;
+	color: #333f48
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content .full-review::after,
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content .full-review::before {
+	content: '"'
+}
+
+.collection-pads-reviews .yotpo-display-wrapper .yotpo-regular-box .sentence-content .single-sentence-text-content .display-name {
+	color: #333f48;
+	font-weight: 700;
+	font-size: 1.125rem;
+	margin-top: 1.5rem
+}
+
+.product-pads-reviews .yotpo .yotpo-label-container {
+	border-top: none
+}

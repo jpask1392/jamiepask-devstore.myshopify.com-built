@@ -1,0 +1,67 @@
+.nexwear-pads-collection .collection-pads-products .container {
+  position: static;
+}
+
+.collection-pads-products {
+	font-family: Gilroy, sans-serif;
+	position: relative;
+	overflow: hidden;
+
+  .container {
+    position: relative;
+  }
+
+  .underwear-model {
+    display: none;
+    width: 30rem;
+    height: auto;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+}
+
+.collection-pads-products .btn,
+.collection-pads-products .button,
+.collection-pads-products .cart-button-checkout,
+.collection-pads-products .gf_button.button.btn {
+	padding: 1rem 2rem
+}
+
+.collection-pads-products .pads-collection-title {
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	padding: 3rem 0 2rem 0
+}
+
+.collection-pads-products .pad-stack {
+	position: absolute;
+	bottom: 0;
+	width: 60%
+}
+
+.collection-pads-products .pad-stack--lhs{
+	left: 0;
+	transform: translate(-50%, 34%)
+}
+
+.collection-pads-products .pad-stack--rhs {
+	right: 0;
+	transform: translate(50%, 34%)
+}
+
+.collection-pads-products .product-list-item-title {
+	font-weight: 700
+}
+
+.collection-pads-products .product-pads-title {
+	font-size: 1.3rem
+}
+
+.collection-pads-products .product-list-item-thumbnail img {
+	padding: 0 4rem
+}

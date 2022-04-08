@@ -1,0 +1,177 @@
+.button,
+.btn,
+.cart-button-checkout,
+.gf_button.button.btn {
+	font-family: "Gilroy", sans-serif;
+  border-radius: .4rem;
+  line-height: 1;
+  font-weight: 400;
+  padding: .35rem 1rem;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 0.4rem transparent;
+  text-decoration: none !important;
+  text-transform: none;
+  font-size: 1.125rem;
+  letter-spacing: .0125rem;
+  width: auto;
+  height: auto;
+}
+
+.accent-style .button, 
+.btn-primary, 
+.female .btn-primary {
+	background-color: #B28D4C;
+  color: #FFF;
+  box-shadow: 0 0 0 0.4rem #B28D4C;
+  border-color: #FFF;
+}
+
+.btn.klaviyo-bis-trigger {
+  width: 100% !important;
+  text-align: center;
+  margin-top: 1rem !important;
+  border: 3px solid #707070;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  line-height: 1;
+  padding: 22px;
+  position: relative;
+  transition: all 50ms ease-in-out;
+  white-space: normal;
+  text-decoration: none !important;
+}
+
+.accent-style .button:hover, 
+.btn-primary:hover, 
+.btn-primary:active {
+    color: #FFF;
+    // background: #A1782F;
+    // box-shadow: 0 0 0 0.4rem #A1782F;
+    border-color: #fff !important;
+}
+
+.btn-primary.focus, 
+.btn-primary:focus,
+.female .btn-primary:focus {
+    // box-shadow: 0 0 0 0.4rem #A1782F;
+}
+
+.button.secondary, 
+.btn-secondary, 
+.cart-button-update {
+	background-color: #7c878e !important;
+	color: #FFF;
+    box-shadow: 0 0 0 0.4rem #7c878e !important;
+	border-color: #fff !important;
+}
+
+.btn-secondary:hover {
+	background-color: #525d65 !important;	
+	box-shadow: 0 0 0 0.4rem #525d65 !important;
+}
+
+.button.secondary:hover, 
+.btn-seconday:hover, 
+.cart-button-update:hover, 
+.button.secondary:active, 
+.btn-seconday:active, 
+.cart-button-update:active, 
+.button.secondary:focus, 
+.btn-seconday:focus, 
+.cart-button-update:focus {
+	background-color: #7c878e;
+	color: #FFF;
+    box-shadow: 0 0 0 0.4rem #7c878e;
+	border-color: #fff !important;
+}
+.btn-link {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    color: #B38F4F;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.btn-link:hover {
+	color: #B38F4F;
+}
+.btn-lg {
+padding: .6rem 1rem .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: .3rem;
+}
+
+.female .btn-primary {
+	background-color: #B28D4C !important;
+    color: #FFF !important;
+    box-shadow: 0 0 0 0.4rem #B28D4C !important;
+    border-color: #FFF;
+}
+.female .btn-primary:focus,
+.female .btn-primary:hover,
+.female .btn-primary:active  {
+    box-shadow: 0 0 0 0.4rem #A1782F !important;
+    background-color: #A1782F !important;
+    border-color: #fff;
+}
+.male .btn-primary {
+	background-color: #525d65 !important;
+	color: #FFF;
+	box-shadow: 0 0 0 0.4rem #525d65 !important;
+	border-color: #FFF;
+}
+.male .btn-primary:hover,
+.male .btn-primary:focus,
+.male .btn-primary:active  {
+	background-color: #333f48 !important;
+	box-shadow: 0 0 0 0.4rem #333f48 !important;
+	border-color: #fff;
+}
+
+.btn--round,
+.template-collection .nexwear-pads-collection .collection-pads-header .btn {
+	border-radius: 100px !important;
+	box-shadow: none!important;
+	padding: 1rem 2rem;
+	color: #fff;
+	font-weight: 700!important;
+	border-width: 3px!important
+}
+
+.primary-pads-module .product-content-wrapper form.product-form .pad-size-options .btn,
+.cart-button-checkout,
+.gf_button.button.btn {
+	background-color: transparent;
+}
+
+#add-to-cart-button,
+.add-to-cart input.button {
+  color: white;
+  border-radius: 5px;
+  background-color: #dda46e;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  transition: all .2s;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #dda46e;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: lightgray;
+    color: #000;
+  }
+}

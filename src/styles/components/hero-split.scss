@@ -1,0 +1,40 @@
+.hero-split {
+  min-height: 75vh;
+
+  @include media-breakpoint-up(lg) {
+    height: 75vh;
+  }
+
+  &.image-right {
+    .row {
+      flex-direction: row-reverse;
+    }
+
+    .image-wrapper {
+      justify-content: flex-start;  
+    }
+  }
+
+  &.image-left {
+    .image-wrapper {
+      justify-content: flex-end;  
+    }
+  }
+
+  .image-wrapper {
+    display: flex;
+
+    & > div {
+      flex-shrink: 0;
+      background-size: cover;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56%;
+
+      @include media-breakpoint-up(lg) {
+        width: 50vw;
+        height: 100%;
+      }
+    }
+  }
+}

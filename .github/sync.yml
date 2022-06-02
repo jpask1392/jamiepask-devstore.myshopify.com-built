@@ -7,5 +7,6 @@ jpask1392/jamiepask-devstore.myshopify.com-built:
     deleteOrphaned: true
 
 jpask1392/jamiepask-devstore.myshopify.com:
-  - dest: shopify/
+  - source: /
+    dest: shopify/
     deleteOrphaned: true

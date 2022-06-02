@@ -1,10 +1,9 @@
-jpask1392/jamiepask-devstore.myshopify.com-built:
+jpask1392/jamiepask-devstore.myshopify.com-built@main:
   - source: .github/sync.yml
     dest: .github/sync.yml
   - source: .github/workflows/
     dest: .github/workflows/
   - source: shopify/
-    dest: 
     deleteOrphaned: true
 
 # jpask1392/jamiepask-devstore.myshopify.com:

@@ -5,27 +5,39 @@ jpask1392/jamiepask-devstore.myshopify.com-built:
     dest: .github/workflows/
   - source: shopify/assets/
     dest: assets/
+    deleteOrphaned: true
   - source: shopify/config/
     dest: config/
+    deleteOrphaned: true
   - source: shopify/locales/
     dest: locales/ 
+    deleteOrphaned: true
   - source: shopify/sections/
     dest: sections/ 
+    deleteOrphaned: true
   - source: shopify/snippets/
     dest: snippets/ 
+    deleteOrphaned: true
   - source: shopify/templates/
     dest: templates/
+    deleteOrphaned: true
 
 jpask1392/jamiepask-devstore.myshopify.com:
   - source: assets/
     dest: shopify/assets/
+    deleteOrphaned: true
   - source: config/
     dest: shopify/config/
+    deleteOrphaned: true
   - source: locales/
     dest: shopify/locales/ 
+    deleteOrphaned: true
   - source: sections/
     dest: shopify/sections/ 
+    deleteOrphaned: true
   - source: snippets/
     dest: shopify/snippets/ 
+    deleteOrphaned: true
   - source: templates/
     dest: shopify/templates/
+    deleteOrphaned: true

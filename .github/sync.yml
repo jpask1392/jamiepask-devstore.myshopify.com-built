@@ -3,24 +3,7 @@ jpask1392/jamiepask-devstore.myshopify.com-built:
     dest: .github/sync.yml
   - source: .github/workflows/
     dest: .github/workflows/
-  - source: shopify/assets/
-    dest: assets/
-    deleteOrphaned: true
-  - source: shopify/config/
-    dest: config/
-    deleteOrphaned: true
-  - source: shopify/locales/
-    dest: locales/ 
-    deleteOrphaned: true
-  - source: shopify/sections/
-    dest: sections/ 
-    deleteOrphaned: true
-  - source: shopify/snippets/
-    dest: snippets/ 
-    deleteOrphaned: true
-  - source: shopify/templates/
-    dest: templates/
-    deleteOrphaned: true
+  - source: shopify/
 
 jpask1392/jamiepask-devstore.myshopify.com:
   - source: assets/

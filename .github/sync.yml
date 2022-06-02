@@ -1,0 +1,31 @@
+jpask1392/jamiepask-devstore.myshopify.com-built:
+  - source: .github/sync.yml
+    dest: .github/sync.yml
+  - source: .github/workflows/
+    dest: .github/workflows/
+  - source: shopify/assets/
+    dest: assets/
+  - source: shopify/config/
+    dest: config/
+  - source: shopify/locales/
+    dest: locales/ 
+  - source: shopify/sections/
+    dest: sections/ 
+  - source: shopify/snippets/
+    dest: snippets/ 
+  - source: shopify/templates/
+    dest: templates/
+
+jpask1392/jamiepask-devstore.myshopify.com:
+  - source: assets/
+    dest: shopify/assets/
+  - source: config/
+    dest: shopify/config/
+  - source: locales/
+    dest: shopify/locales/ 
+  - source: sections/
+    dest: shopify/sections/ 
+  - source: snippets/
+    dest: shopify/snippets/ 
+  - source: templates/
+    dest: shopify/templates/

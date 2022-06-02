@@ -4,6 +4,7 @@ jpask1392/jamiepask-devstore.myshopify.com-built@main:
   - source: .github/workflows/
     dest: .github/workflows/
   - source: shopify/
+    dest: https://github.com/jpask1392/jamiepask-devstore.myshopify.com-built/
     deleteOrphaned: true
 
 # jpask1392/jamiepask-devstore.myshopify.com:
